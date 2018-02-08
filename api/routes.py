@@ -1,5 +1,5 @@
 from flask import render_template
-from meetUPbeerUP import app
+from app import app
 
 
 @app.route('/')
