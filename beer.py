@@ -1,1 +1,0 @@
-from meetUPbeerUP import app

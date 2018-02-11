@@ -7,8 +7,12 @@ app.config.from_object(Config)
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
-import routes
+from routes import *
 
+#@app.route('/')
+#@app.route('/index')
+#def index():
+#    return 'Hello'
 
 if __name__ == '__main__':
     app.run()
