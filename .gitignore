@@ -3,8 +3,9 @@
 *.com
 *.class
 *.dll
-*.exe
+*.exde
 *.o
+*.sos
 *.so
 
 # Packages #
